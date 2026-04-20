@@ -1,5 +1,6 @@
 function greetingBot(name, isMorning) {
-  return isMorning ? `Good morning, ${name}!` : `Hello, ${name}!`;
+  const greeting = (isMorning && "Good morning") || "Hello";
+  return `${greeting}, ${name}!`;
 }
 
 console.log(greetingBot("Jeff", true));

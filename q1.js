@@ -13,7 +13,7 @@ switch (true) {
   case score < 90:
     console.log("B");
     break;
-  case score < 100:
+  case score <= 100:
     console.log("A");
     break;
   default:
